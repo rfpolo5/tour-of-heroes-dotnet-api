@@ -21,7 +21,7 @@ spec:
   type: openai
   lifecycle: production
   owner: user:rfpolo5
-  system: tour-of-heroes
+  #system: tour-of-heroes
   dependsOn: ['resource:heroes-db']
   apiConsumedBy: ['component:www-heroes']
   definition: |
